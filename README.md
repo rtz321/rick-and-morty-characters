@@ -48,7 +48,8 @@ This is a Single Page Application that displays characters from series Rick & Mo
 
 2. Install dependencies:
 
-    ```npm install
+    ```bash
+    npm install
 
     ```
 
@@ -56,7 +57,8 @@ This is a Single Page Application that displays characters from series Rick & Mo
 
 To run the application in development mode, use the following command:
 
-    ```npm start
+    ```bash
+    npm start
 
     ```
     Open your browser and navigate to http://localhost:3000 to view the app.
@@ -65,6 +67,7 @@ To run the application in development mode, use the following command:
 
 To run the unit tests for the application, use the following command:
 
-    ```npm test
+    ```bash
+    npm test
 
     ```
