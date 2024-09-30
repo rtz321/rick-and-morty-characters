@@ -43,31 +43,28 @@ This is a Single Page Application that displays characters from series Rick & Mo
     ```bash
     git clone https://github.com/rtz321/rick-and-morty-characters.git
     cd rick-and-morty-characters
-
     ```
 
 2. Install dependencies:
 
     ```bash
     npm install
-
     ```
 
 ## Running the Application
 
 To run the application in development mode, use the following command:
 
-    ```bash
-    npm start
+```bash
+npm start
+```
 
-    ```
-    Open your browser and navigate to http://localhost:3000 to view the app.
+Open your browser and navigate to http://localhost:3000 to view the app.
 
 ## Testing
 
 To run the unit tests for the application, use the following command:
 
-    ```bash
-    npm test
-
-    ```
+```bash
+npm test
+```
