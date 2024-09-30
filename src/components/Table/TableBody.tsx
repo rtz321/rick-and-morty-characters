@@ -1,4 +1,5 @@
 import { flexRender, Table } from '@tanstack/react-table'
+import { clsx } from 'clsx'
 
 const TableBody = <T extends { id: number }>({
     table,
@@ -14,9 +15,10 @@ const TableBody = <T extends { id: number }>({
                 {row.getVisibleCells().map((cell) => (
                     <td
                         key={cell.id}
-                        className={
+                        className={clsx(
+                            'px-4 py-1',
                             cell.column.id === 'image' ? 'w-16' : 'w-auto'
-                        }
+                        )}
                     >
                         <p className="block font-semibold text-sm text-slate-800">
                             {flexRender(
